@@ -18,6 +18,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+
+    // just checking if the BLE plugin works
+    ble.isEnabled(
+        function() {
+            console.log("Bluetooth is enabled");
+            alert("Bluetooth is enabled");
+        },
+        function() {
+            console.log("Bluetooth is *not* enabled");
+            alert("Bluetooth is *not* enabled");
+        }
+    );
+
   });
 })
 
