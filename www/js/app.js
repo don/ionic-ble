@@ -23,7 +23,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     ble.isEnabled(
         function() {
             console.log("Bluetooth is enabled");
-            alert("Bluetooth is enabled");
         },
         function() {
             console.log("Bluetooth is *not* enabled");
@@ -79,6 +78,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
+
+    .state('tab.ble', {
+      url: '/ble',
+      views: {
+        'tab-ble': {
+          templateUrl: 'templates/tab-ble.html',
+          controller: 'BLECtrl'
+        }
+      }
+    })
+    .state('tab.ble-detail', {
+      url: '/ble/:deviceId',
+      views: {
+        'tab-ble': {
+          templateUrl: 'templates/ble-detail.html',
+          controller: 'BLEDetailCtrl'
+        }
+      }
+  })
 
   .state('tab.account', {
     url: '/account',

@@ -15,6 +15,9 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "com.megster.cordova.ble"
+    {
+      "id": "com.megster.cordova.ble",
+      "locator": "/Users/don/ble/cordova-ble"
+    }
   ]
 }

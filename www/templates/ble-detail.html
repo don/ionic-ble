@@ -1,0 +1,19 @@
+<ion-view view-title="{{device.name}}">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">{{device.name}}</div>
+      <div class="item item-body">
+          {{device.id}}
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Services</div>
+        <ion-list>
+          <ion-item ng-repeat="service in device.services">
+            {{service}}
+          </ion-item>
+        </ion-list>
+    </div>
+
+  </ion-content>
+</ion-view>
