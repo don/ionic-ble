@@ -1,7 +1,11 @@
 Test [Cordova BLE plugin](https://github.com/don/cordova-plugin-ble-central) with Ionic
 
+Android
+
     ionic platform add android
-    ionic plugin add cordova-plugin-ble-central
-    ionic run
-    
-This example also works with iOS.
+    ionic run --device
+
+iOS
+
+    ionic platform add android
+    ionic run --device
