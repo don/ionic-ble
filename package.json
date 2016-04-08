@@ -18,6 +18,8 @@
     {
       "id": "com.megster.cordova.ble",
       "locator": "/Users/don/ble/cordova-ble"
-    }
-  ]
+    },
+    "cordova-plugin-ble-central"
+  ],
+  "cordovaPlatforms": []
 }
