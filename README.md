@@ -7,5 +7,6 @@ Android
 
 iOS
 
-    ionic platform add android
-    ionic run --device
+    $ ionic platform add ios
+    $ cordova prepare ios
+    # Open project/platforms/ios/ionic-ble.xcodeproj in XCode
