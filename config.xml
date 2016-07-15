@@ -20,5 +20,5 @@
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
-    <plugin name="cordova-plugin-ble-central" spec="~1.0.4" />
+    <plugin name="cordova-plugin-ble-central" spec="~1.1.1" />
 </widget>
