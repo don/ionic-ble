@@ -7,5 +7,5 @@ Android
 
 iOS
 
-    ionic platform add android
+    ionic platform add ios
     ionic run --device
