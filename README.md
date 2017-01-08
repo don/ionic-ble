@@ -3,7 +3,7 @@ Test [Cordova BLE plugin](https://github.com/don/cordova-plugin-ble-central) wit
 Android
 
     ionic platform add android
-    ionic run --device
+    ionic run Android
 
 iOS
 
